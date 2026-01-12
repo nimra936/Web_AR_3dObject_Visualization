@@ -135,8 +135,8 @@ A marker-based Augmented Reality application that brings museum artifacts to lif
 4. **Enjoy the AR experience!**
 
 ### Marker Files Required:
-- `helmet.patt` - Pattern file for Warrior Helmet
-- `camera.patt` - Pattern file for Antique Camera
+- `engine.patt` - Pattern file for Warrior Helmet
+- `lantern.patt` - Pattern file for Antique Camera
 
 > **Note**: Generate marker patterns using [AR.js Marker Trainer](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
 
@@ -149,8 +149,8 @@ Augmented Reality app/
 ├── index.html      # Main HTML with A-Frame scene
 ├── styles.css      # Premium glassmorphism styling
 ├── script.js       # AR logic, voice, quiz, audio
-├── helmet.patt     # Helmet marker pattern
-├── camera.patt     # Camera marker pattern
+├── patt files      # Folder with .patt files of all artifacts
+├── markers         # Folder with image.png of all artifacts
 └── README.md       # This file
 ```
 
@@ -186,6 +186,6 @@ Augmented Reality app/
 
 This project was created for educational purposes.
 
-**3D Models**: Khronos Group glTF Sample Models (Public Domain)
+**3D Models**: Khronos Group glTF Sample Models (Public Domain)  
 
 
